@@ -1,0 +1,12 @@
+li{
+  list-style: none;
+  position: relative;
+}
+.slide-li-title{
+  height: 56px;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.24);
+}
+.slide-li-a{
+  text-decoration: none;line-height: 56px;
+  color: #607D8B;padding: 0 15px;font-size: 13px;
+}
