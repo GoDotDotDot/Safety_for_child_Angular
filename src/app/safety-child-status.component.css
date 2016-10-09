@@ -1,0 +1,52 @@
+p:nth-of-type(1) span{
+  color: #33cd5f
+}
+p:nth-of-type(2) span{
+  color: red
+}
+html,body{
+  width:100%;height: 100%
+}
+*{
+  margin:0;padding: 0px;
+  font-family: "Helvetica Neue",Arial,STHeiti,"Microsoft YaHei",sans-serif,Helvetica,"DroidSansFallback",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3"!important;
+}
+.status-common{
+  box-sizing: border-box;
+  min-height: 100px;
+  max-height: 128px;
+}
+.status-frame{
+  width: 50%;
+  float: left;
+  padding: 10px 10px;
+}
+.status-inner-frame{
+  position: relative;
+  width: 100%;
+  border: 1px solid #BFBFBF;
+  box-shadow: 0px 0px 6px 1px #aaaaaa;
+}
+.status-inner-frame img{
+  position: absolute;
+  top: 0;
+  left: 11px;
+  bottom: 0;
+  max-width: 56px;
+  max-height: 56px;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.status-inner-frame h3{
+  margin: 10px 0 0 76px;    font-size: 16px;
+  font-weight: normal;color:#387ef5
+}
+
+
+.status-inner-frame p {
+  margin: 0px 0  0 76px;
+  color: #666;
+  font-size: 14px;
+}
