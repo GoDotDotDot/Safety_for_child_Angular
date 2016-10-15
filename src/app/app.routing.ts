@@ -1,15 +1,17 @@
 import {Routes,RouterModule} from '@angular/router';
 import {ModuleWithProviders} from '@angular/core';
 import {SafetyChildStatusComponent} from "./safety-child-status.component";
+import {Error404} from "./error404.component";
 
 const appRoutes:Routes=[
+
   {
-    path:'',
+    path:'status',
     component:SafetyChildStatusComponent
   },
   {
     path:'**',
-    component:SafetyChildStatusComponent
+      component:Error404
   },
 ]
 export const appRoutingProviders: any[] = [

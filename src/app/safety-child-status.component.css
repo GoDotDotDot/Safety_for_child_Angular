@@ -50,3 +50,6 @@ html,body{
   color: #666;
   font-size: 14px;
 }
+#container{
+  height: 500px;
+}

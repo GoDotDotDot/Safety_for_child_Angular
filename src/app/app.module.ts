@@ -10,6 +10,7 @@ import {SafetyHeaderComponent} from './safety-header.component';
 import {SafetySlideComponent} from './safety-slide.component';
 import {SafetyContentComponent} from './safety-content.component'
 import {SafetyChildStatusComponent} from "./safety-child-status.component";
+import {Error404} from "./error404.component";
 @NgModule({
   imports: [
     BrowserModule,
@@ -22,7 +23,8 @@ import {SafetyChildStatusComponent} from "./safety-child-status.component";
     SafetyHeaderComponent,
     SafetySlideComponent,
     SafetyContentComponent,
-    SafetyChildStatusComponent
+    SafetyChildStatusComponent,
+    Error404
   ],
   providers: [
     appRoutingProviders,

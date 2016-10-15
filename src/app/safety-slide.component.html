@@ -1,12 +1,33 @@
 <div class="slide">
   <ul>
     <li class="slide-li-title">
-      <a href="#" class="slide-li-a">
-        我的孩子
+      <a routerLink="/status"  class="slide-li-a">
+        信息总览
       </a>
+    </li>
+    <li class="slide-li-title">
+      <a routerLink="/status" routerLinkActive="active" class="slide-li-a">
+        儿童管理
+      </a>
+      <div class="slide-li-div">
+        <ul>
+          <li>
+            <a href="">位置规划</a>
+          </li>
+          <li>
+            <a href="">路径查询</a>
+          </li>
+          <li>
+            <a href="">账户管理</a>
+          </li>
+        </ul>
+      </div>
 
+    </li>
+    <li class="slide-li-title">
+      <a href="" class="slide-li-a">安全信息</a>
     </li>
   </ul>
 
 </div>
-<router-outlet></router-outlet>
+
