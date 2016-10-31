@@ -4,7 +4,10 @@ import {SafetyChildStatusComponent} from "./safety-child-status.component";
 import {Error404} from "./error404.component";
 
 const appRoutes:Routes=[
-
+  {
+    path:'',
+    component:SafetyChildStatusComponent
+  },
   {
     path:'status',
     component:SafetyChildStatusComponent

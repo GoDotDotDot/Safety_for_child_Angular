@@ -11,12 +11,17 @@ import {SafetySlideComponent} from './safety-slide.component';
 import {SafetyContentComponent} from './safety-content.component'
 import {SafetyChildStatusComponent} from "./safety-child-status.component";
 import {Error404} from "./error404.component";
+import {PanelMenuModule} from 'primeng/primeng';
+import {MenuItem} from 'primeng/primeng'
+
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    PanelMenuModule
+    
   ],
   declarations: [
     AppComponent,
@@ -24,7 +29,7 @@ import {Error404} from "./error404.component";
     SafetySlideComponent,
     SafetyContentComponent,
     SafetyChildStatusComponent,
-    Error404
+    Error404   
   ],
   providers: [
     appRoutingProviders,
